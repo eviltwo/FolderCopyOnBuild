@@ -1,5 +1,5 @@
 # FolderCopyOnBuild
-Copy the specified directory to the build path. The folder containing the Marker assets is the target.
+Copy the specified directory to the build path after the build. The folder containing the Marker assets is the target.
 
 Example: Copy the Licenses folder to the build path.
 
