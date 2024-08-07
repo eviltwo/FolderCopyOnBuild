@@ -59,13 +59,21 @@ namespace FolderCopyOnBuild
         public static string GetDirectoryFullPath(Object asset)
         {
             var path = AssetDatabase.GetAssetPath(asset);
+            if (string.IsNullOrEmpty(path))
+            {
+                return string.Empty;
+            }
             return Path.Combine(Directory.GetParent(Application.dataPath).FullName, Path.GetDirectoryName(path));
         }
 
         public static void FindFiles(FolderCopyOnBuildMarker marker, List<string> result)
         {
-            var markerDirPath = GetDirectoryFullPath(marker);
             result.Clear();
+            var markerDirPath = GetDirectoryFullPath(marker);
+            if (string.IsNullOrEmpty(markerDirPath))
+            {
+                return;
+            }
             foreach (var filter in marker.Filters)
             {
                 result.AddRange(Directory.GetFiles(markerDirPath, filter, marker.SearchOption));
