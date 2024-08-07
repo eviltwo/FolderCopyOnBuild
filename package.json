@@ -1,0 +1,17 @@
+{
+    "name": "com.eviltwo.folder-copy-on-build",
+    "displayName": "Folder Copy On Build",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "Copy the specified directory to the build path.",
+    "author": {
+        "name": "DAIKI(eviltwo)",
+        "url": "https://github.com/eviltwo"
+    },
+
+    "keywords": [
+    ],
+
+    "dependencies": {
+    }
+}
