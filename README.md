@@ -7,10 +7,7 @@ Example: Copy the Licenses folder to the build path.
 
 ![image](https://github.com/user-attachments/assets/f80b2c0a-711c-4f1d-8b60-1664b0480fce)
 
-![image](https://github.com/user-attachments/assets/114a13ec-5522-4254-92a6-46c8d6492a16)
-
-![image](https://github.com/user-attachments/assets/25371aec-0cd3-4c25-b228-5b898c2005f3)
-
+![image](https://github.com/user-attachments/assets/85993e7b-251f-4b4f-b8a1-eb4d72c2d742)
 
 # Install with UPM
 ```
