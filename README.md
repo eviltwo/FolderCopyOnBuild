@@ -13,3 +13,9 @@ Example: Copy the Licenses folder to the build path.
 ```
 https://github.com/eviltwo/FolderCopyOnBuild.git
 ```
+
+# Support My Work
+As a solo developer, your financial support would be greatly appreciated and helps me continue working on this project.
+- [Asset Store](https://assetstore.unity.com/publishers/12117)
+- [Steam](https://store.steampowered.com/curator/45066588)
+- [GitHub Sponsors](https://github.com/sponsors/eviltwo)
